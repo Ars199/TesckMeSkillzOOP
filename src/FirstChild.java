@@ -9,11 +9,11 @@ public class FirstChild extends AbstrClass {
         System.out.println("gav");
     }
 
-    public void walk(){
+    public void walk() {
         System.out.println("Overrided");
     }
 
-    public void walk(int=a){
+    public void walk(int a) {
         System.out.println("Reloaded");
     }
 
